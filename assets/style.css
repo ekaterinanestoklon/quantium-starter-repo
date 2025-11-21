@@ -1,0 +1,48 @@
+body {
+    background-color: #e9f7f5;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2d8f82;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.radio-block {
+    background: #f2fbfa;
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    border: 1px solid #d1efea;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.radio-block label {
+    margin-right: 20px;
+    font-size: 18px;
+    color: #25756b;
+}
+
+input[type="radio"]:checked + span {
+    color: #2d8f82;
+    font-weight: bold;
+}
+
+#sales-line-chart {
+    border-radius: 12px;
+    background: white;
+    padding: 10px;
+}
